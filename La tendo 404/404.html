@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bangers&family=Rammetto+One&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>404 - Page Not Found</title>
+    <style>
+        .navbar {
+            background-color: #ffffff;
+            overflow: hidden;
+            padding: 0px 20px;
+        }
+        .navbar a {
+            float: left;
+            display: block;
+            color: rgb(124, 124, 124);
+            text-align: center;
+            padding: 0px 50px;
+            text-decoration: none;
+        }
+        .navbar a:hover {
+            text-decoration: underline;
+        }
+        .navbar .logo img {
+            height: 60px;
+            float: left;
+            margin-right: 80px;
+            margin-left: -70px;
+        }
+        .navbar .menu {
+            float: left;
+        }
+        .navbar .menu a {
+            float: left;
+        }
+        
+        @media screen and (max-width: 600px) {
+            .navbar a, .navbar .logo, .navbar .menu-right {
+                float: none;
+                display: block;
+                text-align: center;
+            }
+            .navbar .menu {
+                display: none;
+            }
+        }
+        body {
+            background-color: #f8f8f8;
+            color: #333;
+            text-align: center;
+            padding: 50px;
+        }
+        .error-content {
+            font-family: 'Bangers', sans-serif; 
+        }
+        .error-content h1 {
+            font-size: 100px;
+            margin-bottom: 20px;
+        }
+        .error-content h2 {
+            font-size: 40px;
+            margin-bottom: 10px
+        }
+        .error-content p {
+            font-size: 20px;
+            margin-bottom: 30px;
+        }
+        .image-container {
+            background-image: url(Impact\ manga\ bg.png); 
+            background-size:cover;
+            background-position:center;
+            background-repeat: no-repeat;
+            margin: 0px;
+            padding: 0px;
+            text-align:center;
+            border-radius: 0px; 
+        }
+        .image-container {
+            margin: 50px 0;
+        }
+        .image-container img {
+            max-width: 200%;
+            height: auto;
+        }
+        .button-container {
+            margin-top: 10px;
+        }
+        .button-container a {
+            display: inline-block;
+            padding: 15px 20px;
+            background-color: #0056bc;
+            border-color: #0056b3;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+            margin: 0 10px;
+        }
+        .button-container a:hover {
+            background-color: #ffd104;
+        }
+        .button-container img {
+            height: 40px; 
+        }
+        .button-container img:first-child {
+            margin-right: 50px; 
+            height: 100px; 
+            width: auto;  
+        }
+        .button-container img:last-child {
+            margin-left: 50px; 
+            height: 100px; 
+            width: auto;  
+        }
+    </style>
+</head>
+<body>
+    <div class="navbar">
+        <div class="logo">
+            <a href="https://latendo.com/main/home">
+                <img src="La_Tendo_logo_NoWhites.png" alt="Website Logo">
+            </a>
+        </div>
+        <div class="menu">
+            <a href="https://latendo.com/main/home">Home</a>
+            <a href="https://latendo.com/main/product-status/Pre%20Order">Pre-Order</a>
+            <a href="https://latendo.com/main/product-status/New%20Arrival">New Arrivals</a>
+            <a href="https://latendo.com/main/product-marketplace">Marketplace</a>
+            <a href="https://latendo.com/main/product-kuji">Kuji</a>
+            <a href="https://latendo.com/blog">Blog</a>
+            <a href="https://latendo.com/gallery">Gallery</a>
+        </div>
+    </div>
+    <div class="error-content">
+        <h2>You thought this was a 404 page,</h2>
+        <h1>But it was I, Dio!</h1>
+
+        <div class="image-container">
+             <a href="https://www.youtube.com/watch?v=wLoRiTk-awo">
+                <img src="It was I, Dio!.png" alt="404 Image">
+             </a>
+        </div>
+
+        <p>Run away, or test your luck:</p>
+        <div class="button-container">
+             <img src="bowing woman.png" alt="Image to the left of buttons">
+            <a href="https://latendo.com/main/home" class="back-home">Back to Safety</a>
+            <a href="https://latendo.com/main/product-kuji" class="gacha-button">Gacha?</a>
+            <img src="bowing woman.png" alt="Image next to buttons">
+        </div>
+    </div>
+
+</body>
+</html>
+
